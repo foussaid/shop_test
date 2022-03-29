@@ -1,0 +1,45 @@
+{%extends "products/index.html" %}
+
+{% load static %}
+
+
+{% block title %}
+        <title> Mes produits </title>
+    {% endblock %}
+
+{% block titre %}
+    <nav>
+        <h5>
+            <a href="{% url 'shop-index' %}">Accueil</a>
+        </h5>
+        <h5>
+            <a href="{% url 'products:new-product' %}">Ajouter un nouveau produit</a>
+        </h5>
+    </nav>
+    <h1 class ="titre"> Articles disponibles :  </h1>
+{% endblock %}
+
+{% block content %}
+<section id="products">
+
+{% for product in products %}
+    <div class="product-title">
+        <a href="{% url 'products:show-product' slug=product.slug %}">
+            <h3>{{ forloop.counter }} •{{ product.type }} - {{ product.label }} : expire le  {{ product.expirationDate }}</h3>
+        </a>
+    </div>
+    <div id="bouton1">
+        <a href="{% url 'products:edit-product' slug=product.slug %}">
+            <button class="btn"> Éditer </button>
+        </a>
+    </div>
+    <div id="bouton2">
+        <a href="{% url 'products:delete-product' slug=product.slug %}">
+            <button class="btn"> Supprimer </button>
+        </a>
+    </div>
+    <hr>
+{% endfor %}
+</section>
+
+{% endblock %}

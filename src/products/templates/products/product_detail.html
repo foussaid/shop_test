@@ -1,0 +1,23 @@
+{%extends "products/index.html" %}
+
+{% load static %}
+
+{% block title %}
+    <title>{{ product.type }} - {{ product.label }}</title>
+{% endblock %}
+
+{% block titre %}
+    <h1>{{ product.type }} - {{ product.label }}</h1>
+   <hr>
+{% endblock %}
+
+{% block content %}
+ <h3>Code-barres : {{ product.gtin }} </h3>
+ <h3>Expire le : {{ product.expirationDate }}</h3>
+<a href="{% url 'products:home' %}">
+  <p>
+      Liste des produits
+  </p>
+
+</a>
+{% endblock %}

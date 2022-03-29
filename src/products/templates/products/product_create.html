@@ -1,0 +1,24 @@
+{%extends "products/index.html" %}
+
+{% load static %}
+
+{% block title %}
+    <title> Ajouter un article  </title>
+{% endblock %}
+{% block titre %}
+<h1> Ajouter un article </h1>
+{% endblock %}
+
+{% block content %}
+<fieldset>
+
+    <form method="POST">
+        <table>
+        {% csrf_token %}
+        {{ form.as_table }}
+        </table>
+        <input type="submit" value="Créer">
+    </form>
+</fieldset>
+
+{% endblock %}

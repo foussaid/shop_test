@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    {% block title %}
+        <title>My shop</title>
+    {% endblock %}
+</head>
+<body>
+{% block titre %}
+    <h1>Bienvenue dans le magasin  !</h1>
+    <a href="{% url 'products:home' %}">
+        <h3>Voir les produits</h3>
+    </a>
+
+{% endblock %}
+</body>
+</html>
