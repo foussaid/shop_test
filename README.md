@@ -78,18 +78,17 @@ Dans le fichier src, il y a deux autres fichiers : myshop et products.
 
    python manage.py runserver ensuite aller sur l'accueil du magasin à l'adresse : http://127.0.0.1:8000/ .
    
-   •Accéder à l'interface d'administration sur la page http://127.0.0.1:8000/admin avec les identifiants suivants:
-        Nom d'utilisateur : Fatima
-        Mot de passe : Codabene
+   •Accéder à l'interface d'administration sur la page http://127.0.0.1:8000/admin, il faudrait être un super utilisateur
+   (le créer avec la commande : python manage.py createsuperuser )
         
         
 4•Difficultés rencontrées lors de la programmation de l'application :
 
-•Problème technique lors de l'installation la bibliothèque psycopg2.
+   •Problème technique lors de l'installation la bibliothèque psycopg2.
 
-•J'ai eu des difficultés pour finir les tâches que j'ai prévues. En effet, lorsque j'essaie d'ajouter un 
-produits déjà existant, je n'arrive pas mettre à jour sa date d'expiration. Après plusieurs recherches, 
-je pense que je peux remédier à cela en surchargeant la méthode CreateProduct. 
+   •J'ai eu des difficultés pour finir les tâches que j'ai prévues. En effet, lorsque j'essaie d'ajouter un 
+   produits déjà existant, je n'arrive pas mettre à jour sa date d'expiration. Après plusieurs recherches, 
+   je pense que je peux remédier à cela en surchargeant la méthode CreateProduct. 
 
 
 

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2ef935d-b5c1-4983-8d69-7f6951a3f2f0" name="Default Changelist" comment="" />
+    <list default="true" id="c2ef935d-b5c1-4983-8d69-7f6951a3f2f0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +40,7 @@
         <counts>
           <entry key="css" value="940" />
           <entry key="html" value="2268" />
-          <entry key="md" value="5242" />
+          <entry key="md" value="5395" />
           <entry key="py" value="3551" />
         </counts>
       </usages-collector>
@@ -46,7 +48,7 @@
         <counts>
           <entry key="CSS" value="940" />
           <entry key="HTML" value="2268" />
-          <entry key="Markdown" value="5242" />
+          <entry key="Markdown" value="5395" />
           <entry key="Python" value="3551" />
         </counts>
       </usages-collector>
@@ -70,8 +72,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1065">
-                <caret line="71" column="34" selection-start-line="71" selection-start-column="34" selection-end-line="71" selection-end-column="34" />
+              <first_editor relative-caret-position="192">
+                <caret line="81" column="66" lean-forward="true" selection-start-line="81" selection-start-column="66" selection-end-line="81" selection-end-column="66" />
               </first_editor>
               <second_editor />
             </state>
@@ -319,6 +321,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="725" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -528,8 +531,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1065">
-            <caret line="71" column="34" selection-start-line="71" selection-start-column="34" selection-end-line="71" selection-end-column="34" />
+          <first_editor relative-caret-position="192">
+            <caret line="81" column="66" lean-forward="true" selection-start-line="81" selection-start-column="66" selection-end-line="81" selection-end-column="66" />
           </first_editor>
           <second_editor />
         </state>
